@@ -5,7 +5,7 @@ PROJECTID=$(gcloud config get-value project)
 ```
 
 ```
-docker build . -t gcr.io/$PROJECTID/shinyrun'
+docker build . -t gcr.io/$PROJECTID/shinyrun
 ```
 
 Test locally
