@@ -10,7 +10,7 @@ docker build . -t gcr.io/$PROJECTID/shinyrun
 
 Test locally
 ```
-docker run --rm -it -p 8080:8080 gcr.io/$PROJECTID/shinyrun:latest
+docker run --rm -p 8080:8080 gcr.io/$PROJECTID/shinyrun:latest
 ```
 
 Push image to Google Registry
