@@ -26,5 +26,5 @@ gcloud builds submit --tag gcr.io/$PROJECTID/shinyrun
 
 Deploy to Google Cloud Run
 ```
-gcloud run deploy --image gcr.io/$PROJECTID/shinyrun --platform managed
+gcloud run deploy --image gcr.io/$PROJECTID/shinyrun --platform managed --max-instances 1
 ```
