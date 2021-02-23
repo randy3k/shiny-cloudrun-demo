@@ -22,5 +22,5 @@ Deploy to Google Cloud Run
 ```
 gcloud run deploy --image gcr.io/$PROJECTID/shinyrun --platform managed --max-instances 1
 # for project with large memory need
-# gcloud run deploy --image gcr.io/$PROJECTID/shinydemo --platform managed --max-instances 1 --memory 1G
+# gcloud run deploy --image gcr.io/$PROJECTID/shinyrun --platform managed --max-instances 1 --memory 1G
 ```
