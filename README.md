@@ -1,5 +1,9 @@
 # Running Shiny app on Google Cloud Run
 
+
+EDIT: it is probably outdated as Google Cloudrun now supports websocket.
+
+
 ```
 PROJECTID=$(gcloud config get-value project)
 ```
